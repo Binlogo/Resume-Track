@@ -35,9 +35,8 @@
 
 - 参与 IM 部分扩展功能模块的开发、迭代与维护
 
-  - 红包功能模块
-
-  - Markdown 消息解析功能模块
+  - 红包功能模块，引入 RxTest 对核心用例进行单元测试，支持动态限流、配置金额上下限等技术与运营业务场景
+  - Markdown 消息解析功能模块，采用 Swift 对 C 语言库进行桥接，对 cmark 封装，提取语法树支持自定义富文本展示
 
 - 负责 Rust 编写的全新跨平台长连接网络服务（iOS 侧）
 
@@ -45,7 +44,7 @@
 
   - [Swift Unsafe Part - 「危险的 Swift 」指北](https://juejin.im/post/5d7c2207f265da03ea5aabf7)
 
-- 担任体验冲刺版本负责人，组织清零 iOS 端约 **200** 个 bug
+- 担任体验优化冲刺版本负责人，组织单个迭代清零全员上线后约 **200** 个 bug
 
 - 重构网络组件：TCP 长连接业务解耦
 
@@ -91,7 +90,7 @@
 
 # 🎒 学习 · 教育 · 分享
 
-在校与工作期间，自我驱动，终身学习，利用互联网与英语践行丰富在线教育。
+在校与工作期间，自我驱动，终身学习，利用互联网践行在线教育。
 
 ## 常规教育
 
@@ -153,7 +152,7 @@
 
 二进制运转着的这个世界，开源功不可没。向顶尖的代码学习，并贡献微薄力量。
 
-## 🚀 我的项目
+## 我的项目
 
 - [iOS 实践与精进检查清单](https://github.com/Binlogo/iOS-Practice-Checklist)
 - [Design-Patterns-In-Swift-CN](https://github.com/Binlogo/Design-Patterns-In-Swift-CN) - Swift 5.0 示例实现的设计模式阐释
@@ -163,14 +162,14 @@
 - [SimpleTracer](https://github.com/Binlogo/SimpleTracer) - 基于 Apple 官方的 SimplePing 采用 Swift 搭建的 traceroute 工具
 - [FayeClientSwift](https://github.com/Binlogo/FayeClientSwift) - Swift 编写的 Faye 订阅消息服务客户端
 
-## ❤️ 参与贡献的项目
+## 参与贡献的项目
 
 - [IceCream](https://github.com/caiyue1993/IceCream) - Realm 数据库与 CloudKit 同步
 - [Design Patterns in Swift](https://github.com/ochococo/Design-Patterns-In-Swift) - Swift 示例实现的设计模式阐释
 - [Alamofire](https://github.com/Alamofire/Alamofire) - Swift 网络库
 - [LeetCode by Swift](https://github.com/soapyigu/LeetCode-Swift) - LeetCode 的 Swift 题解
 
-# 技能概要
+# 🎯 技能概要
 
 - 编程语言：Swift、Objective-C、Rust、JavaScript、Ruby、C ...
 
@@ -184,6 +183,8 @@
 
 - 编程范式：面向对象 & 面向过程 & 面向协议、函数式编程、响应式编程
 
-# 自我评价与总结
+- 人类语言：母语汉语、第二外语英语
 
-热忱的 iOS 开发者，4 年相关经验，对互联网有敏锐的，不断自我驱动，夯实计算机基础的同时，
+# 🧘‍♂️ 自我评价与总结
+
+热忱的 iOS 开发者，4 年相关经验，熟悉开发流程与各种配套工具，并有较为丰富的即时通讯应用开发经验，熟悉网络编程、性能优化，具备复杂问题拆解能力。虽遗憾大学时期未及时选对专业，却更加笃定了对计算机与互联网由衷的热爱，在线教育实践与游学经验反而给了我更为独特的视野，养成了对互联网较为敏锐的洞察以及终身学习的习惯。乐观的未来主义者，不断自我驱动、积极探索，夯实计算机基础的同时，一步一个脚印，持续进步，以成绩换肯定。工作上勤勉扎实，善于总结、沉淀与分享。喜欢在开源世界徜徉，熟练运用英语。
