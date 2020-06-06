@@ -5,6 +5,7 @@ multilingual = false
 src = "src"
 title = "王兴彬 · 简历"
 
+[output.html]
 no-section-label = true
 git-repository-url = "https://github.com/Binlogo/Resume-Track"
 git-repository-icon = "fa-github"

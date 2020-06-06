@@ -1,6 +1,6 @@
 # 🎒学习 · 教育 · 分享
 
-在校与工作期间，自我驱动，终身学习，利用互联网与英语践行丰富在线教育。
+在校与工作期间，自我驱动，终身学习，利用互联网践行在线教育。
 
 ## Udacity · 优达学城
 
@@ -39,16 +39,17 @@
 - CS50: Introduction to Computer Science @ 哈佛 & edX
 - BEGIN PROGRAMMING: BUILD YOUR FIRST MOBILE GAME @ UNIVERSITY OF READING & FutureLearn
 - CCA-Certificate-Swift Level 2 证书
-- ……
+- ......
 
 ## 常规教育
 
 - 2012 - 2014: 建筑工程专业 @ 南华大学（一批本科）
+
   - 大学英语六级证书（CET - 6）
   - 全国计算机二级证书
   - 大学生科技创新工作先进个人荣誉证书
 
-简单说明：在校期间出于兴趣主要时间多自学计算机相关课程，游学两年后主动肄业，放弃原专业，加入「第三次工业革命」。（了解更多心路历程：[《行·知·在路上》](https://binlogo.github.io/post/experience-and-knowledge-on-the-road)  ）
+简单说明：在校期间出于兴趣主要时间多自学计算机相关课程，游学两年后主动肄业，放弃原专业，加入「第三次工业革命」。（了解更多心路历程：[《行·知·在路上》](https://binlogo.github.io/post/experience-and-knowledge-on-the-road) ）
 
 ## 沉淀与分享
 
@@ -58,4 +59,3 @@
 - [LeetCode-Swift-Track](https://github.com/Binlogo/LeetCode-Swift-Track)
 - [iOS 实践与精进检查清单](https://github.com/Binlogo/iOS-Practice-Checklist)
 - [棒棒彬的第二大脑](https://binlogo.github.io/Knowledge-Track/Introduction.html)
-
