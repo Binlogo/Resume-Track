@@ -81,7 +81,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="profile.html"><strong aria-hidden="true">1.</strong> 基本信息</a></li><li class="chapter-item expanded "><a href="experience.html" class="active"><strong aria-hidden="true">2.</strong> 工作经历</a></li><li class="chapter-item expanded "><a href="education.html"><strong aria-hidden="true">3.</strong> 学习教育</a></li><li class="chapter-item expanded "><a href="projects.html"><strong aria-hidden="true">4.</strong> 开源项目</a></li><li class="chapter-item expanded "><a href="skills.html"><strong aria-hidden="true">5.</strong> 技能概要</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="profile.html">基本信息</a></li><li class="chapter-item expanded "><a href="experience.html" class="active">工作经历</a></li><li class="chapter-item expanded "><a href="education.html">学习教育</a></li><li class="chapter-item expanded "><a href="projects.html">开源项目</a></li><li class="chapter-item expanded "><a href="skills.html">技能概要</a></li><li class="chapter-item expanded "><a href="about.html">自我评价与总结</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -118,6 +118,10 @@
                     <div class="right-buttons">
                         <a href="print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        <a href="https://github.com/Binlogo/Resume-Track" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
                         
                     </div>
@@ -166,12 +170,8 @@
 <li>
 <p>参与 IM 部分扩展功能模块的开发、迭代与维护</p>
 <ul>
-<li>
-<p>红包功能模块</p>
-</li>
-<li>
-<p>Markdown 消息解析功能模块</p>
-</li>
+<li>红包功能模块，引入 RxTest 对核心用例进行单元测试，支持动态限流、配置金额上下限等技术与运营业务场景</li>
+<li>Markdown 消息解析功能模块，采用 Swift 对 C 语言库进行桥接，对 cmark 封装，提取语法树支持自定义富文本展示</li>
 </ul>
 </li>
 <li>
@@ -184,7 +184,7 @@
 </ul>
 </li>
 <li>
-<p>担任体验冲刺版本负责人，组织清零 iOS 端约 <strong>200</strong> 个 bug</p>
+<p>担任体验优化冲刺版本负责人，组织单个迭代清零全员上线后约 <strong>200</strong> 个 bug</p>
 </li>
 <li>
 <p>重构网络组件：TCP 长连接业务解耦</p>
