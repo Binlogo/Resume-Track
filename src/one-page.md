@@ -1,190 +1,184 @@
-# 😛 基本信息
+# 😛 Info
 
-🤖 王兴彬/男/1993·🐓
+👻 Name: Dylan Wang
 
-📚 南华大学（本科）
+📱 Phone: +86-15575450546
 
-📱 手机：`15575450546` 📮邮箱：`binboy@live.com`
+📮 Email: binboy@live.com
 
-🐙 GitHub：[@Binlogo](https://github.com/Binlogo)
+🐙 GitHub: <https://github.com/Binlogo>
 
-📚 博客：[彬少の原野](https://binlogo.github.io/) & [掘金主页](https://juejin.im/user/56a029d2128fe1005134e7fe/posts) & [小专栏主页](https://xiaozhuanlan.com/u/2558455195)
+📚 Blog: <https://binlogo.github.io/>
 
-🌏 地点：现居北京，家乡：井冈山·江西
+🌏 Location: Working in Bejing, come from JingGangShan, JiangXi
 
-# 🚀 工作经历
+# 🚀 Work Experience
 
-## 滴滴出行科技有限公司 · 高级软件研发工程师 @ IM 研发部
+## Beijing Xiaoju Technology Co, Ltd. (Didi Global) · Sr. SDE @ IM R&D dept · Efficiency Platform
 
-`2018.09 - 至今`
+`2018.09 - Present`
 
-负责即时通讯应用的 iOS 端整体研发
+Responsible for the development of an instant messaging iOS App
 
-主要采用技术栈：`Swift` · `RxSwift` · `MVVM & FRP` · `Rust` · `Objective-C`
+Tech stacks：`Swift` · `RxSwift` · `MVVM & FRP` · `Rust` · `Objective-C`
 
-### 参与项目
+### Projects
 
-#### D-Chat，桔厂人的协作沟通效率工具
+#### D-Chat, Internal Enterprise Messaging App
 
-替换钉钉，成为滴滴内部全体员工协作沟通的即时通讯应用，并一站式整合各种内部效率工具
+Replace the DingTalk, as an IM App for all employees in Didi Global, and integrate various internal efficiency tools in one stop.
 
-- 负责 IM 在线长连接网络服务与离线事件消息同步模块的功能迭代、性能监控与优化
+- Participate in the development of the IM Core SDK.
 
-  - 采用策略模式支持新旧长连接服务迁移与升降级切换
-  - 离线事件懒加载改造，优化同步连接速度提升约 **5** 倍
+  - Developed Red Packet module
 
-- 参与 IM 部分扩展功能模块的开发、迭代与维护
+  - Developed Markdown parsing module
 
-  - 红包功能模块，引入 RxTest 对核心用例进行单元测试，支持动态限流、配置金额上下限等技术与运营业务场景
-  - Markdown 消息解析功能模块，采用 Swift 对 C 语言库进行桥接，对 cmark 封装，提取语法树支持自定义富文本展示
+- Responsible for performance monitoring and optimization of long connection network service and messages synchronization module.
 
-- 负责 Rust 编写的全新跨平台长连接网络服务（iOS 侧）
+- Responsible for the new cross-platform long connection network service written by Rust (iOS side).
 
-- 攻坚全员上线后高频偶现崩溃定位修复，将崩溃率由 **160‰** 控制到了 **10‰** 以内
+- Conquered an occasionally but high frequency crash after full release, and the crash rate is controlled from 160‰ to less than 10‰.
 
   - [Swift Unsafe Part - 「危险的 Swift 」指北](https://juejin.im/post/5d7c2207f265da03ea5aabf7)
 
-- 担任体验优化冲刺版本负责人，组织单个迭代清零全员上线后约 **200** 个 bug
+- In charged of the polishing sprint, and cleared ~200 bugs togather.
 
-- 重构网络组件：TCP 长连接业务解耦
+- Refactored network components: TCP long connection service decoupling.
 
-- 参与 IM 模块 SDK 化架构以及各项文档建设
+- Built a traceroute tool based on SimplePing to collect online network diagnostics.
 
-#### 司机部落（跨部门合作项目）
+- Contributed on IM module SDK document constrction.
 
-司机服务组织化落地项目，提高司服经理与司机、司机与司机间的沟通效率
+#### Rainbow
 
-- IM 侧 SDK 功能模块多业务支持
+A driver service landing project to improve the communication efficiency between the manager and the driver, driver and driver.
 
-- 参与 IM 定制功能的开发、迭代与维护
+- Provision IM SDK infrastructure support.
+- Participate in the development of features involving IM.
 
-#### ERP 审核助手机器人（跨部门合作项目）
+#### ERP assistant robot
 
 对接立项、OA 等多模块的 ERP 系统交互对话机器人助手，基于 IM 开放接口与 hubot，采用 `Node.js` 进行搭建
 
-- 从 0 到 1 独立负责 ERP 部门的审核助手对话机器人项目开发与落地
+A interaction messaging robot assistant for multi-module ERP system, such as OA.
 
-- 探索设计服务解耦与逻辑动态扩展，极大减少多个新增模块开发量，支持多平台迅速迁移
+- Independently responsible for development of the ERP department's audit assistant dialogue robot.
+- Based on IM open API and hubot, built with Node.js
 
-## 一熊科技有限公司 · 高级 iOS 开发工程师
+## BearyChat · Sr. SDE of iOS
 
-`2017.12 - 2018.09` `「离职」原因：整体由滴滴出行收购，因此工作内容两者部分相近与重叠。`
+`2017.12 - 2018.09` `info：acquired by Didi Global `
 
-- [BearyChat 倍洽](http://bearychat.com/)，企业级 IM 高效协同应用
+- [BearyChat](http://bearychat.com/), Enterprise communication app
 
-- 大企业客户私有部署项目
+  - Participated in the development of the iOS client.
 
-  - 负责 IM 侧核心功能以及 CRM 、日历等定制扩展功能模块开发
+- Enterprise customer private deployment project
 
-## 白羽毛互联网金融服务有限公司 · iOS 开发主程
+  - Participated in the development of the iOS client.
+
+  - Responsible for CRM, Calendar modules and etc.
+
+## FellowPlus · iOS R&D
 
 `2015.10 - 2017.11`
 
-助力投资人与创业者发现与沟通的平台效率工具，类似国外的 [AngelList](https://angel.co/)
+An [AngelList](https://angel.co/)-like app, to help inverstors and entrepreneures discover and communicate with.
 
-- FellowPlus iOS 客户端 2.0 版本
+- FellowPlus iOS App, Version 1.0 
 
-  - 主导采用 Swift 进行全新 2.0 版本的架构设计与整体开发
+  - Developed and maintained the existing projects in Objective-C 
 
-- FellowPlus iOS 客户端 1.0 版本
+- FellowPlus iOS App, Version 2.0 
 
-# 🎒 学习 · 教育 · 分享
+  - Led the adoption of Swift for new 2.0 version product development.
 
-在校与工作期间，自我驱动，终身学习，利用互联网践行在线教育。
+  - Responsible for the core modules of the architecture, UI interface, data processing, etc.
 
-## 常规教育
+# 🎒 Learning · Edu · Sharing
 
-- 2012 - 2014: 建筑工程专业 @ 南华大学（一批本科）
+Self-driven, life-long learning, an MOOC student.
 
-  - 大学英语六级证书（CET - 6）
-  - 全国计算机二级证书
-  - 大学生科技创新工作先进个人荣誉证书
+## General Education
 
-简单说明：在校期间出于兴趣主要时间多自学计算机相关课程，游学两年后主动肄业，放弃原专业，加入「第三次工业革命」，从事移动互联网开发工作。
+- 2012 - 2014: Civil engineering @ University of South China
 
-了解更多心路历程：[《行·知·在路上》](https://binlogo.github.io/post/experience-and-knowledge-on-the-road)
+Info：Dropped out after 2 gap years, during which I kept learning and got the first iOS job.
 
-## 终身学习 · 在线教育
+To know more: 《行·知·在路上》https://binlogo.github.io/post/experience-and-knowledge-on-the-road/
+
+## Life-long learning · Online education
 
 **Udacity**
 
-- **2017.7 获取 [深度学习基石纳米学位 @ Udacity](https://graduation.udacity.com/confirm/L6E3WKJ2)**
-- 「iOS 开发者纳米学位」相关课程
+- **2017.7  [Deep Learning nano degree @ Udacity](https://graduation.udacity.com/confirm/L6E3WKJ2)**
+- Paticipate in「iOS Developer Nanodegree」program
 
-  - iOS Persistence and Core Data
-  - iOS Networking with Swift
-  - Building iOS Interfaces
-  - Xcode Debugging
-
-- 计算机科学相关课程
-
-  - Design of Computer Programs
-  - Intro to Algorithms
 
 **网易云课堂**
 
-- **2016.1 获取 [iOS 开发工程师微专业证书 @ 极客班（Geekband) & 网易云课堂](https://mooc.study.163.com/smartSpec/Authority.htm?certNo=M2016010000035#/)**
+- **2016.1 [iOS Development Micro-Specialization certificate @ Geekband & 网易云课堂](https://mooc.study.163.com/smartSpec/Authority.htm?certNo=M2016010000035#/)**
 
-  - Objective-C 高级编程
-  - iOS 应用开发实战
-  - Swift 高级编程
-  - iOS 设计模式
-  - 算法原理与实践
-
-- [顶尖中文大学计算机专业课程体系](https://study.163.com/curricula/cs.htm)相关课程
 
 **其他**
 
-- CS50: Introduction to Computer Science @ 哈佛 & edX
+- CS50: Introduction to Computer Science @ Harvard & edX
 - BEGIN PROGRAMMING: BUILD YOUR FIRST MOBILE GAME @ UNIVERSITY OF READING & FutureLearn
-- **CCA-Certificate-Swift Level 2 证书**
+- **CCA-Certificate-Swift Level 2**
 
-## 沉淀与分享 · 费曼「以教为学」法的自我教育
+## Sharing
 
-- [小专栏 - 彻底搞定 GCD🚦并发编程](https://xiaozhuanlan.com/complete-ios-gcd)
-- [设计模式（Swift 5.0 实现）](https://github.com/Binlogo/Design-Patterns-In-Swift-CN)
+- [Xiaozhuanlan - Complete iOS GCD](https://xiaozhuanlan.com/complete-ios-gcd)
+- [Design Pattern in Swift 5.0 - CN](https://github.com/Binlogo/Design-Patterns-In-Swift-CN)
 - [Exercism practice in Rust track](https://github.com/Binlogo/Exercism-Rust-Track)
 - [LeetCode-Swift-Track](https://github.com/Binlogo/LeetCode-Swift-Track)
-- [iOS 实践与精进检查清单](https://github.com/Binlogo/iOS-Practice-Checklist)
-- [棒棒彬的第二大脑](https://binlogo.github.io/Knowledge-Track/Introduction.html)
+- [iOS-Practice-Checklist](https://github.com/Binlogo/iOS-Practice-Checklist)
+- [Knowleage-Track](https://binlogo.github.io/Knowledge-Track/Introduction.html)
 
-# 💥 开源项目
+# 💥 Open source projects
 
-二进制运转着的这个世界，开源功不可没。向顶尖的代码学习，并贡献微薄力量。
+## Mine
 
-## 我的项目
+- [Design-Patterns-In-Swift-CN](https://github.com/Binlogo/Design-Patterns-In-Swift-CN) - Design Patterns implemented in Swift 5.0, translation.
+- [Exercism-Rust-Track](https://github.com/Binlogo/Exercism-Rust-Track) - Exercism Rust answers.
+- [LeetCode-Swift-Track](https://github.com/Binlogo/LeetCode-Swift-Track) - LeetCode 💖 Swift, algrithem practices.
+- [Flow-Track](https://github.com/Binlogo/Flow-Track) - Animation practice with Sketch & Flow.
+- [SimpleTracer](https://github.com/Binlogo/SimpleTracer) - A traceroute tool based on Apple official sample code: SimplePing.
+- [FayeClientSwift](https://github.com/Binlogo/FayeClientSwift) - A Faye Cilent Library in Swift for the Faye (Bayeux) Pub-Sub messaging server. 
 
-- [iOS 实践与精进检查清单](https://github.com/Binlogo/iOS-Practice-Checklist)
-- [Design-Patterns-In-Swift-CN](https://github.com/Binlogo/Design-Patterns-In-Swift-CN) - Swift 5.0 示例实现的设计模式阐释
-- [Exercism-Rust-Track](https://github.com/Binlogo/Exercism-Rust-Track) - Exercism Rust 题解
-- [LeetCode-Swift-Track](https://github.com/Binlogo/LeetCode-Swift-Track) - LeetCode 💖 Swift，攻克数据结构与算法
-- [Flow-Track](https://github.com/Binlogo/Flow-Track) - 采用 Sketch & Flow 制作动画
-- [SimpleTracer](https://github.com/Binlogo/SimpleTracer) - 基于 Apple 官方的 SimplePing 采用 Swift 搭建的 traceroute 工具
-- [FayeClientSwift](https://github.com/Binlogo/FayeClientSwift) - Swift 编写的 Faye 订阅消息服务客户端
+## Contributes
 
-## 参与贡献的项目
+- [IceCream](https://github.com/caiyue1993/IceCream) - Sync Realm Database with CloudKit.
+- [Design Patterns in Swift](https://github.com/ochococo/Design-Patterns-In-Swift) - Design Patterns implemented in Swift 5.0.
+- [Alamofire](https://github.com/Alamofire/Alamofire) - Elegant HTTP Networking in Swift.
+- [LeetCode by Swift](https://github.com/soapyigu/LeetCode-Swift) - LeetCode answers in Swift.
 
-- [IceCream](https://github.com/caiyue1993/IceCream) - Realm 数据库与 CloudKit 同步
-- [Design Patterns in Swift](https://github.com/ochococo/Design-Patterns-In-Swift) - Swift 示例实现的设计模式阐释
-- [Alamofire](https://github.com/Alamofire/Alamofire) - Swift 网络库
-- [LeetCode by Swift](https://github.com/soapyigu/LeetCode-Swift) - LeetCode 的 Swift 题解
+# 🎯 Skills
 
-# 🎯 技能概要
+- Programming language：Swift、Objective-C、Rust、JavaScript、Ruby、C ...
 
-- 编程语言：Swift、Objective-C、Rust、JavaScript、Ruby、C ...
+- Development tools：Xcode、VSCode、Git、Vim、Reveal、Instrument、Charles、fastlane、Dash、SnippetsLab ...
 
-- 开发工具：Xcode、VSCode、Git、Vim、Reveal、Instrument、Charles、fastlane、Dash、SnippetsLab ...
+- Frameworks：CoreData & SQLite、Realm、Stroryboard & Xib、AutoLayout、URLSession、GCD、Runtime、RunLoop ...
 
-- 核心框架：CoreData & SQLite、Realm、Stroryboard & Xib、AutoLayout、URLSession、GCD、Runtime、RunLoop ...
+- Dependency management：CocoaPods、Carthage、Swift Package Manager
 
-- 依赖管理：CocoaPods、Carthage、Swift Package Manager
+- Design patterns：MVC、MVVM、Delegate、Notification、Observer、Factory、Strategy ...
 
-- 设计模式：MVC、MVVM、代理、通知、观察者、工厂模式、策略模式 ...
+- Programming paradigm：Object-oriented & Process-oriented & Protocol-oriented、Funtional programming、Reactive programming
 
-- 编程范式：面向对象 & 面向过程 & 面向协议、函数式编程、响应式编程
+- Human languages：Mandarin as first、English as second.
 
-- 人类语言：母语汉语、第二外语英语
+# 🧘‍♂️ Self-evaluation · Summary
 
-# 🧘‍♂️ 自我评价与总结
+- Dedicated iOS developer, 4+ years experience.
 
-热忱的 iOS 开发者，4 年相关经验，熟悉开发流程与各种配套工具，并有较为丰富的即时通讯应用开发经验，熟悉网络编程、性能优化，具备复杂问题拆解能力。虽遗憾大学时期未及时选对专业，却更加笃定了对计算机与互联网由衷的热爱，在线教育实践与游学经验反而给了我更为独特的视野，养成了对互联网较为敏锐的洞察以及终身学习的习惯。乐观的未来主义者，不断自我驱动、积极探索，夯实计算机基础的同时，一步一个脚印，持续进步，以成绩换肯定。工作上勤勉扎实，善于总结、沉淀与分享。喜欢在开源世界徜徉，熟练运用英语。
+- Familiar with developement process and various supporting tools. 
+- Rich experience in instant messaging application development, familiar with networking programming, performence optimization. 
+- Ablibity to disassemble complex problems.
+
+- Optimistic futurists, constantly self-driven and actively explored. 
+- Diligent and solid at work, good at summarizing, accumulating and sharing.
+- Enthusiastic of open source.
+
