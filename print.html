@@ -19,12 +19,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
+        
         <link rel="icon" href="favicon.svg">
+        
+        
         <link rel="shortcut icon" href="favicon.png">
+        
         <link rel="stylesheet" href="css/variables.css">
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/chrome.css">
+        
         <link rel="stylesheet" href="css/print.css" media="print">
+        
 
         <!-- Fonts -->
         <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
@@ -91,7 +97,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="profile.html">基本信息</a></li><li class="chapter-item expanded "><a href="experience.html">工作经历</a></li><li class="chapter-item expanded "><a href="education.html">学习教育</a></li><li class="chapter-item expanded "><a href="projects.html">开源项目</a></li><li class="chapter-item expanded "><a href="skills.html">技能概要</a></li><li class="chapter-item expanded "><a href="about.html">自我评价与总结</a></li></ol>
+                <ol class="chapter"><li class="chapter-item "><a href="profile.html">基本信息</a></li><li class="chapter-item "><a href="experience.html">工作经历</a></li><li class="chapter-item "><a href="education.html">学习教育</a></li><li class="chapter-item "><a href="projects.html">开源项目</a></li><li class="chapter-item "><a href="skills.html">技能概要</a></li><li class="chapter-item "><a href="about.html">自我评价与总结</a></li><li class="spacer"></li><li class="chapter-item "><a href="archive/archive.html">过往归档</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="archive/experience@didi.html">滴滴出行</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -126,9 +132,11 @@
                     <h1 class="menu-title">王兴彬 · 简历</h1>
 
                     <div class="right-buttons">
+                        
                         <a href="print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
+                        
                         
                         <a href="https://github.com/Binlogo/Resume-Track" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
@@ -188,10 +196,17 @@
 </span></code></pre></pre>
 <p>🐙 GitHub：<a href="https://github.com/Binlogo">@Binlogo</a> </p>
 <p>📚 博客：<a href="https://binlogo.github.io/">彬少の原野</a> &amp; <a href="https://juejin.im/user/56a029d2128fe1005134e7fe/posts">掘金主页</a> &amp; <a href="https://xiaozhuanlan.com/u/2558455195">小专栏主页</a> </p>
-<p>🌏 地点：现居北京，家乡：井冈山·江西</p>
+<p>🌏 地点：现居深圳，家乡：井冈山·江西</p>
 <h1><a class="header" href="#-工作经历" id="-工作经历">🚀 工作经历</a></h1>
+<h2><a class="header" href="#字节跳动科技有限公司--高级-ios-研发工程师----" id="字节跳动科技有限公司--高级-ios-研发工程师----">字节跳动科技有限公司 · 高级 iOS 研发工程师 @ 🙈 · 🙈</a></h2>
+<p><code>2020.10 - 至今</code></p>
+<blockquote>
+<p>Inspire creativity, enrich life.</p>
+</blockquote>
+<p>Making things happen. </p>
+<hr />
 <h2><a class="header" href="#滴滴出行科技有限公司--高级软件研发工程师--im-研发部--效能平台" id="滴滴出行科技有限公司--高级软件研发工程师--im-研发部--效能平台">滴滴出行科技有限公司 · 高级软件研发工程师 @ IM 研发部 · 效能平台</a></h2>
-<p><code>2018.09 - 至今</code></p>
+<p><code>2018.09 - 2020.10</code></p>
 <p>负责即时通讯应用的 iOS 端整体研发</p>
 <p>主要采用技术栈：<code>Swift</code> · <code>RxSwift</code> · <code>MVVM &amp; FRP</code> · <code>Rust</code> · <code>Objective-C</code></p>
 <h3><a class="header" href="#参与项目" id="参与项目">参与项目</a></h3>
@@ -200,57 +215,21 @@
 <ul>
 <li>
 <p>负责 IM 在线长连接网络服务与离线事件消息同步模块的功能迭代、性能监控与优化</p>
-<ul>
-<li>采用策略模式支持新旧长连接服务迁移与升降级切换</li>
-<li>离线事件懒加载改造，优化同步连接速度提升约 <strong>5</strong> 倍</li>
-</ul>
 </li>
 <li>
-<p>参与 IM 部分扩展功能模块的开发、迭代与维护</p>
-<ul>
-<li>红包功能模块，引入 RxTest 对核心用例进行单元测试，支持动态限流、配置金额上下限等技术与运营业务场景</li>
-<li>Markdown 消息解析功能模块，采用 Swift 对 C 语言库进行桥接，对 cmark 封装，提取语法树支持自定义富文本展示</li>
-</ul>
+<p>参与 IM 部分扩展功能模块(红包、Markdown、待办、日历等)的开发、迭代与维护</p>
 </li>
 <li>
 <p>负责 Rust 编写的全新跨平台长连接网络服务（iOS 侧）</p>
 </li>
-<li>
-<p>攻坚全员上线后高频偶现崩溃定位修复，将崩溃率由 <strong>160‰</strong> 控制到了 <strong>10‰</strong> 以内</p>
-<ul>
-<li><a href="https://juejin.im/post/5d7c2207f265da03ea5aabf7">Swift Unsafe Part - 「危险的 Swift 」指北</a></li>
-</ul>
-</li>
-<li>
-<p>担任体验优化冲刺版本负责人，组织单个迭代清零全员上线后约 <strong>200</strong> 个 bug</p>
-</li>
-<li>
-<p>重构网络组件：TCP 长连接业务解耦</p>
-</li>
-<li>
-<p>参与 IM 模块 SDK 化架构以及各项文档建设</p>
-</li>
 </ul>
 <h4><a class="header" href="#司机部落跨部门合作项目" id="司机部落跨部门合作项目">司机部落（跨部门合作项目）</a></h4>
 <p>司机服务组织化落地项目，提高司服经理与司机、司机与司机间的沟通效率</p>
-<ul>
-<li>
-<p>IM 侧 SDK 功能模块多业务支持</p>
-</li>
-<li>
-<p>参与 IM 定制功能的开发、迭代与维护</p>
-</li>
-</ul>
 <h4><a class="header" href="#erp-审核助手机器人跨部门合作项目" id="erp-审核助手机器人跨部门合作项目">ERP 审核助手机器人（跨部门合作项目）</a></h4>
 <p>对接立项、OA 等多模块的 ERP 系统交互对话机器人助手，基于 IM 开放接口与 hubot，采用 <code>Node.js</code> 进行搭建</p>
-<ul>
-<li>
-<p>从 0 到 1 独立负责 ERP 部门的审核助手对话机器人项目开发与落地</p>
-</li>
-<li>
-<p>探索设计服务解耦与逻辑动态扩展，极大减少多个新增模块开发量，支持多平台迅速迁移</p>
-</li>
-</ul>
+<blockquote>
+<p>更详细的内容参见<a href="./archive/experience@didi.html">归档</a></p>
+</blockquote>
 <hr />
 <h2><a class="header" href="#一熊科技有限公司--高级-ios-开发工程师" id="一熊科技有限公司--高级-ios-开发工程师">一熊科技有限公司 · 高级 iOS 开发工程师</a></h2>
 <p><code>2017.12 - 2018.09</code> <code>「离职」原因：整体由滴滴出行收购，因此工作内容两者部分相近与重叠。</code></p>
@@ -399,6 +378,52 @@
 <p>热忱的 iOS 开发者，4 年相关经验，熟悉开发流程与各种配套工具，并有较为丰富的即时通讯应用开发经验，熟悉网络编程、性能优化，具备复杂问题拆解能力。虽遗憾大学时期未及时选对专业，却更加笃定了对计算机与互联网由衷的热爱，在线教育实践与游学经验反而给了我更为独特的视野，养成了对互联网较为敏锐的洞察以及终身学习的习惯。乐观的未来主义者，不断自我驱动、积极探索，夯实计算机基础的同时，一步一个脚印，持续进步，以成绩换肯定。工作上勤勉扎实，善于总结、沉淀与分享。喜欢在开源世界徜徉，熟练运用英语。</p>
 <h2><a class="header" href="#-兴趣爱好" id="-兴趣爱好">⛹ 兴趣爱好</a></h2>
 <p>旅行·阅读·英语·健身·街舞（四肢协调中）·滑板·滑雪</p>
+<h1><a class="header" href="#过往归档" id="过往归档">过往归档</a></h1>
+<blockquote>
+<p>不惧将来，不念过往。如此，甚好。</p>
+</blockquote>
+<p>前进 &gt;</p>
+<h2><a class="header" href="#滴滴出行科技有限公司--高级软件研发工程师--im-研发部--效能平台-1" id="滴滴出行科技有限公司--高级软件研发工程师--im-研发部--效能平台-1">滴滴出行科技有限公司 · 高级软件研发工程师 @ IM 研发部 · 效能平台</a></h2>
+<p><code>2018.09 - 2020.10</code></p>
+<p>负责即时通讯应用的 iOS 端整体研发</p>
+<p>主要采用技术栈：<code>Swift</code> · <code>RxSwift</code> · <code>MVVM &amp; FRP</code> · <code>Rust</code> · <code>Objective-C</code></p>
+<h3><a class="header" href="#参与项目-1" id="参与项目-1">参与项目</a></h3>
+<h4><a class="header" href="#d-chat桔厂人的协作沟通效率工具-1" id="d-chat桔厂人的协作沟通效率工具-1">D-Chat，桔厂人的协作沟通效率工具</a></h4>
+<p>替换钉钉，成为滴滴内部全体员工协作沟通的即时通讯应用，并一站式整合各种内部效率工具</p>
+<ul>
+<li>
+<p>负责 IM 在线长连接网络服务与离线事件消息同步模块的功能迭代、性能监控与优化</p>
+<ul>
+<li>采用策略模式支持新旧长连接服务迁移与升降级切换</li>
+<li>离线事件懒加载改造，优化同步连接速度提升约 <strong>5</strong> 倍</li>
+</ul>
+</li>
+<li>
+<p>参与 IM 部分扩展功能模块的开发、迭代与维护</p>
+<ul>
+<li>红包功能模块，引入 RxTest 对核心用例进行单元测试，支持动态限流、配置金额上下限等技术与运营业务场景</li>
+<li>Markdown 消息解析功能模块，采用 Swift 对 C 语言库进行桥接，对 cmark 封装，提取语法树支持自定义富文本展示</li>
+</ul>
+</li>
+<li>
+<p>负责 Rust 编写的全新跨平台长连接网络服务（iOS 侧）</p>
+</li>
+<li>
+<p>攻坚全员上线后高频偶现崩溃定位修复，将崩溃率由 <strong>160‰</strong> 控制到了 <strong>10‰</strong> 以内</p>
+<ul>
+<li><a href="https://juejin.im/post/5d7c2207f265da03ea5aabf7">Swift Unsafe Part - 「危险的 Swift 」指北</a></li>
+</ul>
+</li>
+<li>
+<p>担任体验优化冲刺版本负责人，组织单个迭代清零全员上线后约 <strong>200</strong> 个 bug</p>
+</li>
+<li>
+<p>重构网络组件：TCP 长连接业务解耦</p>
+</li>
+<li>
+<p>参与 IM 模块 SDK 化架构以及各项文档建设</p>
+</li>
+</ul>
 
                     </main>
 
