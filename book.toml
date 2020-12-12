@@ -9,3 +9,7 @@ title = "王兴彬 · 简历"
 no-section-label = true
 git-repository-url = "https://github.com/Binlogo/Resume-Track"
 git-repository-icon = "fa-github"
+
+[output.html.fold]
+enable = true
+level = 0

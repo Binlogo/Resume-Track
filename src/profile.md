@@ -14,5 +14,5 @@
 
 📚 博客：[彬少の原野](https://binlogo.github.io/) & [掘金主页](https://juejin.im/user/56a029d2128fe1005134e7fe/posts) & [小专栏主页](https://xiaozhuanlan.com/u/2558455195) 
 
-🌏 地点：现居北京，家乡：井冈山·江西
+🌏 地点：现居深圳，家乡：井冈山·江西
 
